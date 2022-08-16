@@ -3,7 +3,7 @@ import hangman_art
 import hangman_words
 #Step 1 
 
-def create_blanks(chosen_word):
+def create_blanks(len_chosen_word):
     blanks = []
     for _ in range(len_chosen_word):
         blanks.append('_')
@@ -12,7 +12,7 @@ def create_blanks(chosen_word):
 print(hangman_art.logo)
 chosen_word = random.choice(hangman_words.word_list)
 len_chosen_word=len(chosen_word)
-blanks = create_blanks(chosen_word=chosen_word)
+blanks = create_blanks(len_chosen_word=len_chosen_word)
 dead=False
 win = False
 lives = 6
