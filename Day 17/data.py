@@ -1,0 +1,26 @@
+question_data = [
+    {
+        "category": "General Knowledge",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Furby was released in 1998.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    },
+    {"category": "Science: Mathematics", "type": "boolean", "difficulty": "hard",
+        "question": "The binary number &quot;101001101&quot; is equivalent to the Decimal number &quot;334&quot;", "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "medium",
+        "question": "&quot;Metal Gear Solid 3: Snake Eater&quot; takes place on Shadow Moses Island.", "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+        "question": "In Kingdom Hearts the Paopu fruit is said to intertwine the destinies for two people forever.", "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "General Knowledge", "type": "boolean", "difficulty": "medium",
+        "question": "Cucumbers are usually more than 90% water.", "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Animals", "type": "boolean", "difficulty": "medium",
+        "question": "The average lifespan of a wildcat is only around 5-6 years. ", "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Geography", "type": "boolean", "difficulty": "medium",
+        "question": "Antarctica is the largest desert in the world.", "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "General Knowledge", "type": "boolean", "difficulty": "easy",
+        "question": "Adolf Hitler was born in Australia. ", "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+        "question": "In Sonic the Hedgehog universe, Tails&#039; real name is Miles Prower.", "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "History", "type": "boolean", "difficulty": "medium", "question": "Martin Luther King Jr. and Anne Frank were born the same year. ", "correct_answer": "True", "incorrect_answers": ["False"]}]
