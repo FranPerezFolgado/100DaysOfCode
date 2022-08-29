@@ -1,4 +1,4 @@
-from http.client import FORBIDDEN
+
 from turtle import Turtle
 ALIGNMENT = "center"
 FONT=("Arial", 16, "normal")
@@ -22,3 +22,4 @@ class Scoreboard(Turtle):
     def game_over(self):
         self.goto(x=0,y=0)
         self.write("GAME OVER", align=ALIGNMENT, font=FONT)
+
