@@ -17,7 +17,7 @@ class CarManager:
     def create_random_cars(self):
         if self.should_gen_car():
             num_cars = random.randint(1,2)
-            print(num_cars)
+
             for _ in range(0,num_cars):
                 self.cars.append(Car(random.choice(COLORS)))
 
@@ -31,7 +31,7 @@ class CarManager:
         
     def check_cars_collision(self, player: Turtle) -> bool:
         for car in self.cars:
-            print(car.distance(player))
+
             if car.distance(player) < 20:
                return True
 
