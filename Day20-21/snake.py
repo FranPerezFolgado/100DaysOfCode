@@ -27,6 +27,13 @@ class Snake():
             if i > 0:
                 snake_body.setpos(x=int(self.segments[-1].pos()[0]-self.snake_size),y=0.0)    
             self.segments.append(snake_body)
+    
+    def reset(self):
+        for segment in self.segments:
+            segment.goto(10000,10000)
+        self.segments.clear()
+        self.create_initial_snake()
+        self.head = self.segments[0]
 
 
 

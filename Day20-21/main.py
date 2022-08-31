@@ -26,13 +26,15 @@ while game_is_on == True:
         scoreboard.add_score()
     
     if snake.detect_collision_with_wall():
-        game_is_on =False
-        scoreboard.game_over()
+        #game_is_on =False
+        #scoreboard.game_over()
+        scoreboard.reset()
+        snake.reset()
     
     for snake_body in snake.segments[1:]:
         if snake.head.distance(snake_body) < 10:
-            game_is_on =False
-            scoreboard.game_over()
-
+            #game_is_on =False
+            scoreboard.reset()
+            snake.reset()
 
 screen.exitonclick()
