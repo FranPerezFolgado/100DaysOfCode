@@ -36,11 +36,11 @@ while len(guessed_states) < 50:
         writer.write(state_obj.state.item(), align=CENTER,font=FONT)
         guessed_states.append(guess_state)
     if guess_state == 'Exit':
-        states_to_learn = []
-        for state in states_data['state'].to_list():
-            print(state)
-            if not state in guessed_states:
-                states_to_learn.append(state)
+        states_to_learn = [state for state in states_data['state'].to_list() if state not in guessed_states]
+        #for state in states_data['state'].to_list():
+        #    print(state)
+        #    if not state in guessed_states:
+        #        states_to_learn.append(state)
 
         states_to_learn_csv = BASE_PATH+'states_to_learn.csv'
         state_dataframe = pandas.DataFrame(states_to_learn, columns=['state'])
