@@ -90,3 +90,17 @@ reset_btn.grid(row=2, column=2, sticky='E')
 check_lbl = Label(text='',fg=GREEN, font=(FONT_NAME,20,'bold'), bg=YELLOW)
 check_lbl.grid(row=3, column=1)
 window.mainloop()
+
+
+
+
+
+
+try:
+    #code that might fail
+except Exception:
+    #to do when a Exception occurs
+else:
+    #to do when no expceptions
+finally:
+    #to do always
