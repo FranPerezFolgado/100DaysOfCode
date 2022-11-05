@@ -10,7 +10,7 @@ import datetime as dt
 
 # 4. Send the letter generated in step 3 to that person's email address.
 MY_EMAIL = 'franperezfolgado@outlook.com'
-PASSWORD = '773oLbyXQCVD^R'
+PASSWORD = 'placeholder'
 SMTP = 'outlook.office365.com'
 TEMPLATE_PATH = 'Day32/birthday_wisher/letter_templates'
 TEMPLATE_MAIL = 'Subject:Happy Birthday!\n\n'

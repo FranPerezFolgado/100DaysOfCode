@@ -5,7 +5,7 @@ from random import choice
 '''
 my_email = 'franperezfolgado@outlook.com'
 email_to = 'pandacabezabuque@gmail.com'
-password= '773oLbyXQCVD^R'
+password= 'placeholder'
 msg = f'From: {my_email}\r\nTo: {email_to}\r\n\r\nHello'
 msg_subject = f'Subject:Hello\n\nBody'
 connection = smtplib.SMTP('outlook.office365.com')
@@ -34,7 +34,7 @@ if 3 == weekday:
     try:
         my_email = 'franperezfolgado@outlook.com'
         email_to = 'pandacabezabuque@gmail.com'
-        password= '773oLbyXQCVD^R'
+        password= 'placeholder'
         msg_subject = f'Subject:Motivational Quote\n\n{choice(quotes_list)}'
         connection = smtplib.SMTP('outlook.office365.com')
         connection.starttls()
