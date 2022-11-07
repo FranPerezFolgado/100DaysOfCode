@@ -95,12 +95,3 @@ window.mainloop()
 
 
 
-
-try:
-    #code that might fail
-except Exception:
-    #to do when a Exception occurs
-else:
-    #to do when no expceptions
-finally:
-    #to do always
